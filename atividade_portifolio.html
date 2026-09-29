@@ -1,52 +1,39 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Ismael Reis - Desenvolvedor Web</title>
 
     <style>
-
         body {
             background-color: #f0f0f0;
         }
 
+        /* Imagem de perfil: exatamente 150x150px */
         .produto {
             width: 150px;
+            height: 150px;
+            object-fit: cover;
             filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
         }
-
     </style>
-
 </head>
 
 <body>
 
     <!-- Cabeçalho -->
-
     <header>
-
         <h1>Ismael Reis - Desenvolvedor Web</h1>
 
         <nav>
-
             <ul>
-
                 <li><a href="#sobre">Sobre</a></li>
-
                 <li><a href="#projetos">Projetos</a></li>
-
                 <li><a href="#contato">Contato</a></li>
-
             </ul>
-
         </nav>
-
     </header>
 
     <hr>
@@ -54,29 +41,31 @@
     <main>
 
         <!-- Seção Sobre Mim -->
-
         <section id="sobre">
 
             <h2>Sobre Mim</h2>
 
-            <img src="assets/Ismaelreis.png" alt="Foto de Ismael Reis" class="produto">
+            <img src="assets/Ismaelreis.png"
+                 alt="Foto de Ismael Reis"
+                 class="produto">
 
-            <p>Sou estudante de <strong>Desenvolvimento de Sistemas no SENAI.</strong></p>
+            <p>
+                Sou estudante de
+                <strong>Desenvolvimento de Sistemas no SENAI.</strong>
+            </p>
 
-            <p>Tenho conhecimento em <em>HTML, CSS e estou aprendendo JavaScript.</em></p>
+            <p>
+                Tenho conhecimento em
+                <em>HTML, CSS e estou aprendendo JavaScript.</em>
+            </p>
 
             <h3>Minhas Habilidades:</h3>
 
             <ul>
-
                 <li>HTML5 Semântico</li>
-
                 <li>CSS3 e Responsividade</li>
-
                 <li>Formulários e Validação</li>
-
                 <li>Estruturação de Dados</li>
-
             </ul>
 
         </section>
@@ -84,7 +73,6 @@
         <hr>
 
         <!-- Seção Meus Projetos -->
-
         <section id="projetos">
 
             <h2>Meus Projetos</h2>
@@ -92,57 +80,47 @@
             <table border="1" cellpadding="6" cellspacing="0">
 
                 <thead>
-
                     <tr>
-
                         <th>Projeto</th>
-
                         <th>Tecnologias</th>
-
                         <th>Status</th>
-
                         <th>Link</th>
-
                     </tr>
-
                 </thead>
 
                 <tbody>
 
                     <tr>
-
                         <td>GameZone Retro</td>
-
                         <td>HTML</td>
-
                         <td>Concluído</td>
-
-                        <td><a href="https://github.com/Reismael/atividade-gamezone-retro">Ver Projeto</a></td>
-
+                        <td>
+                            <a href="https://github.com/Reismael/atividade-gamezone-retro">
+                                Ver Projeto
+                            </a>
+                        </td>
                     </tr>
 
                     <tr>
-
                         <td>Projeto Filme</td>
-
                         <td>HTML</td>
-
                         <td>Concluído</td>
-
-                        <td><a href="https://github.com/Reismael/projeto-filme">Ver Projeto</a></td>
-
+                        <td>
+                            <a href="https://github.com/Reismael/projeto-filme">
+                                Ver Projeto
+                            </a>
+                        </td>
                     </tr>
 
                     <tr>
-
                         <td>Projeto Itaú</td>
-
                         <td>Figma</td>
-
                         <td>Concluído</td>
-
-                        <td><a href="https://github.com/Reismael/Atividade_itau">Ver Projeto</a></td>
-
+                        <td>
+                            <a href="https://github.com/Reismael/Atividade_itau">
+                                Ver Projeto
+                            </a>
+                        </td>
                     </tr>
 
                 </tbody>
@@ -154,7 +132,6 @@
         <hr>
 
         <!-- Seção Entre em Contato -->
-
         <section id="contato">
 
             <h2>Entre em Contato</h2>
@@ -166,42 +143,38 @@
                     <legend>Dados do Contato</legend>
 
                     <p>
-
                         <label for="nome">Nome:</label><br>
-
                         <input type="text" id="nome" name="nome">
-
                     </p>
 
                     <p>
-
                         <label for="email">Email:</label><br>
-
                         <input type="email" id="email" name="email">
-
                     </p>
 
                     <p>
-
                         <label for="assunto">Assunto:</label><br>
 
                         <select id="assunto" name="assunto">
-
-                            <option value="oportunidade">Oportunidade de Trabalho</option>
-
+                            <option value="oportunidade">
+                                Oportunidade de Trabalho
+                            </option>
                         </select>
-
                     </p>
 
                     <p>
-
                         <label for="mensagem">Mensagem:</label><br>
 
-                        <textarea id="mensagem" name="mensagem" rows="4" cols="25"></textarea>
-
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="4"
+                            cols="25"></textarea>
                     </p>
 
-                    <button type="submit">Enviar Mensagem</button>
+                    <button type="submit">
+                        Enviar Mensagem
+                    </button>
 
                 </fieldset>
 
@@ -214,17 +187,20 @@
     <hr>
 
     <!-- Rodapé -->
-
     <footer>
 
-        <p>&copy; 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+        <p>
+            &copy; 2026 Meta. Desenvolvido durante o curso do SENAI.
+        </p>
 
         <p>
-
-            <a href="mailto:ismael.reis@edu.senai.br">ismael.reis@edu.senai.br</a> |
-
-            <a href="tel:11999472753">(11) 999472753</a>
-
+            <a href="mailto:ismael.reis@edu.senai.br">
+                ismael.reis@edu.senai.br
+            </a>
+            |
+            <a href="tel:11999472753">
+                (11) 999472753
+            </a>
         </p>
 
     </footer>
