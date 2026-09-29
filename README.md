@@ -78,14 +78,3 @@ O rodapé apresenta informações de contato, incluindo e-mail e telefone.
 | Projeto Filme | HTML | Concluído |
 | Projeto Itaú | Figma | Concluído |
 
-## Organização dos Arquivos
-
-```text
-portfolio/
-│
-├── index.html
-│
-├── assets/
-│   └── Ismaelreis.png
-│
-└── README.md
